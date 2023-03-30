@@ -1,0 +1,55 @@
+{% block body %}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Моя дорога</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel='stylesheet' type="text/css" href="{{url_for('static', filename='css/main.css')}}">
+    <link rel='stylesheet' type="text/css" href="{{url_for('static', filename='css/slick.css')}}">
+    <link rel='stylesheet' type="text/css" href="{{url_for('static', filename='css/slick-theme.css')}}">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-light">
+        <div class="container-fluid"> 
+            <a class="navbar-brand" href="#">
+                <img src="{{url_for('static', filename='img/logo/logo_nav.png')}}" width="60" height="30" alt="">
+            </a>
+        </div>
+    </nav>
+
+    <div class="container-fluid justify-content-center ">
+        <div class="row text-center justify-content-center">
+            <div class="col text-center multiple-items justify-content-center">
+                    <img class="s_item" src="{{url_for('static', filename='img/slider/1.jpg')}}" alt="">
+                    <img class="s_item" src="{{url_for('static', filename='img/slider/2.jpg')}}" alt="">
+                    <img  class="s_item" src="{{url_for('static', filename='img/slider/3.jpg')}}" alt="">
+                    <img class="s_item" src="{{url_for('static', filename='img/slider/4.jpg')}}" alt="">
+                    <img  class="s_item" src="{{url_for('static', filename='img/slider/5.jpg')}}" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col text-end">
+              <img src="{{url_for('static', filename='img/logo/logo_padd.png')}}" width="240" height="30" alt="">
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="{{url_for('static', filename='js/jquery-3.6.4.min.js')}}"></script>
+    <script src="{{url_for('static', filename='js/slick.min.js')}}"></script>
+    <script src="{{url_for('static', filename='js/main.js')}}"></script>
+</body>
+
+{% endblock %}

@@ -1,0 +1,43 @@
+  body{
+    font-family: 'Montserrat', sans-serif;
+  }
+  img{
+    margin-bottom: 10px;
+  }
+  .navbar{
+    background-color: rgb(239, 48, 35);
+    margin-bottom: 100px;
+  }
+
+  .col{
+    margin-bottom: 15px;
+    margin-top: 38px;
+  }
+  .slider_item{
+    width: 144px;
+    height: 50px;
+  }
+  .s_item{
+    width: 144px;
+    height: 50px;
+  }
+  .container{
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    margin-top: 30px;
+  }
+  .btn{
+    margin-bottom: 15px;
+    border-radius: 15px;
+    width: 250px;
+    height: 50px;
+    font-size: 24;
+    background-color: rgb(239, 48, 35);
+    color: rgb(255, 255, 255);
+  }
+
+  .navbar-brand{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
