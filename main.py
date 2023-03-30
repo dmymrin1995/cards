@@ -56,9 +56,5 @@ def next_item():
                            pile3_back = path_pile3_back
                            )
     
-
-
-
-
 if __name__ == '__main__':
     app.run(debug=True)
