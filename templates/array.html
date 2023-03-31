@@ -34,24 +34,24 @@
       <input type="hidden" name="index" value="{{ index }}">
       <div class="row justify-content-center">
         <div class="col-2 text-center">
-          <img src = "{{ url_for('static', filename=pile1_face) }}" alt ='' height="248" width="140">
+          <img src = "{{ url_for('static', filename=pile1_face) }}" alt ='' class="img-fluid">
         </div>
         <div class="col-2  text-center">
-          <img src = "{{ url_for('static', filename=pile2_face) }}" alt ='' height="248" width="140">
+          <img src = "{{ url_for('static', filename=pile2_face) }}" alt ='' class="img-fluid">
         </div>
         <div class="col-2   text-center">
-          <img src = "{{ url_for('static', filename=pile3_face) }}" alt ='' height="248" width="140">
+          <img src = "{{ url_for('static', filename=pile3_face) }}" alt ='' class="img-fluid">
         </div>
       </div>
       <div class="row justify-content-center">
         <div class="col-2 text-center">
-          <img src = "{{ url_for('static', filename=pile1_back) }}" alt ='' height="248" width="140">
+          <img src = "{{ url_for('static', filename=pile1_back) }}"  alt ='' class="img-fluid">
         </div>
         <div class="col-2 text-center">
-          <img src = "{{ url_for('static', filename=pile2_back) }}" alt ='' height="248" width="140">
+          <img src = "{{ url_for('static', filename=pile2_back) }}" alt ='' class="img-fluid">
         </div>
         <div class="col-2 text-center">
-          <img src = "{{ url_for('static', filename=pile3_back) }}" alt ='' height="248" width="140">
+          <img src = "{{ url_for('static', filename=pile3_back) }}" alt ='' class="img-fluid">
         </div>
       </div>
       <div class="container">
@@ -65,13 +65,19 @@
   </div>
 
 
-  <div class="navbar-fixed-bottom row-fluid">
-    <div class="navbar-inner">
-        <div class="container text-end">
-          <img src="{{url_for('static', filename='img/logo/logo_padd.png')}}" width="240" height="30" alt="">
-        </div>
-    </div>
+
+  <div class="container text-end">
+    <footer class="d-flex flex-wrap justify-content-between  py-3 my-4 ">
+      <div class="col-md-4 d-flex">
+        <img src="{{url_for('static', filename='img/logo/logo_padd.png')}}" width="240" height="30" alt="">
+      </div>
+    </footer>
   </div>
+
+
+
+
+
 
 </body>
   

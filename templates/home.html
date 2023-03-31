@@ -33,7 +33,7 @@
 
     <div class="container-fluid justify-content-center ">
         <div class="row text-center justify-content-center">
-            <div class="col text-center multiple-items justify-content-center">
+            <div class="col-8 text-center slider-for justify-content-center">
                     <img class="s_item" src="{{url_for('static', filename='img/slider/1.jpg')}}" alt="">
                     <img class="s_item" src="{{url_for('static', filename='img/slider/2.jpg')}}" alt="">
                     <img  class="s_item" src="{{url_for('static', filename='img/slider/3.jpg')}}" alt="">
@@ -41,16 +41,25 @@
                     <img  class="s_item" src="{{url_for('static', filename='img/slider/5.jpg')}}" alt="">
             </div>
         </div>
+        <div class="row text-center justify-content-center">
+            <div class="col-6 text-center slider-nav justify-content-center">
+              <img class="s_item" src="{{url_for('static', filename='img/slider/1.jpg')}}" alt="">
+              <img class="s_item" src="{{url_for('static', filename='img/slider/2.jpg')}}" alt="">
+              <img  class="s_item" src="{{url_for('static', filename='img/slider/3.jpg')}}" alt="">
+              <img class="s_item" src="{{url_for('static', filename='img/slider/4.jpg')}}" alt="">
+              <img  class="s_item" src="{{url_for('static', filename='img/slider/5.jpg')}}" alt="">
+            </div>
+        </div>
     </div>
 
 
 
-    <div class="navbar-fixed-bottom row-fluid">
-      <div class="navbar-inner">
-          <div class="container text-end">
-            <img src="{{url_for('static', filename='img/logo/logo_padd.png')}}" width="240" height="30" alt="">
-          </div>
-      </div>
+    <div class="container text-end">
+      <footer class="d-flex flex-wrap justify-content-between  py-3 my-4 ">
+        <div class="col-md-4 d-flex">
+          <img src="{{url_for('static', filename='img/logo/logo_padd.png')}}" width="240" height="30" alt="">
+        </div>
+      </footer>
     </div>
 
     <script src="{{url_for('static', filename='js/jquery-3.6.4.min.js')}}"></script>
