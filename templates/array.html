@@ -33,24 +33,24 @@
     <form action="{{ url_for('next_item')}}" method="POST">
       <input type="hidden" name="index" value="{{ index }}">
       <div class="row justify-content-center">
-        <div class="col-2 text-center">
+        <div class="col-4 col-sm-4 col-md-3 col-lg-2 text-center">
           <img src = "{{ url_for('static', filename=pile1_face) }}" alt ='' class="img-fluid">
         </div>
-        <div class="col-2  text-center">
+        <div class="col-4 col-sm-4 col-md-3 col-lg-2  text-center">
           <img src = "{{ url_for('static', filename=pile2_face) }}" alt ='' class="img-fluid">
         </div>
-        <div class="col-2   text-center">
+        <div class="col-4 col-sm-4 col-md-3 col-lg-2   text-center">
           <img src = "{{ url_for('static', filename=pile3_face) }}" alt ='' class="img-fluid">
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-2 text-center">
+        <div class="col-4 col-sm-4 col-md-3 col-lg-2 text-center">
           <img src = "{{ url_for('static', filename=pile1_back) }}"  alt ='' class="img-fluid">
         </div>
-        <div class="col-2 text-center">
+        <div class="col-4 col-sm-4 col-md-3 col-lg-2 text-center">
           <img src = "{{ url_for('static', filename=pile2_back) }}" alt ='' class="img-fluid">
         </div>
-        <div class="col-2 text-center">
+        <div class="col-4 col-sm-4 col-md-3 col-lg-2 text-center">
           <img src = "{{ url_for('static', filename=pile3_back) }}" alt ='' class="img-fluid">
         </div>
       </div>
